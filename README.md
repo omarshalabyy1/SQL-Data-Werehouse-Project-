@@ -1,32 +1,56 @@
-# SQL Data Warehouse Project
+# 🏗️ SQL Data Warehouse Project
 
-A modern **SQL Server Data Warehouse** project that demonstrates the complete lifecycle of designing, building, and analyzing a data warehouse using industry best practices.
+A modern **SQL Server Data Warehouse** project built by following **Data With Baraa's** tutorial while applying industry best practices in data engineering, ETL, dimensional modeling, and SQL analytics.
 
-## 📌 Project Overview
+---
 
-This project showcases an end-to-end data warehousing solution, covering the entire data pipeline—from raw data ingestion to analytical reporting. It focuses on building a scalable, maintainable, and production-oriented data warehouse architecture using SQL Server.
+## 📖 Overview
 
-The project includes:
+This project demonstrates the complete process of designing and implementing a modern data warehouse using **SQL Server**. It follows the end-to-end data engineering lifecycle, from ingesting raw data to transforming it into an analytics-ready warehouse that supports business intelligence and reporting.
 
-* **Data Warehouse Design** following dimensional modeling principles
-* **ETL Processes** for extracting, transforming, and loading data
-* **Data Modeling** using fact and dimension tables
-* **SQL-Based Analytics** for generating business insights
-* **Query Optimization** and performance best practices
-* **Clean, Modular, and Maintainable** SQL code following industry standards
+The project emphasizes clean architecture, modular SQL development, and scalable ETL design commonly used in real-world BI and analytics projects.
+
+---
 
 ## 🎯 Project Objectives
 
-* Build a modern SQL Server data warehouse from the ground up.
-* Design an optimized dimensional model for analytics.
-* Implement robust ETL pipelines to transform raw data into analytical datasets.
-* Apply data engineering best practices for scalability and maintainability.
-* Generate actionable business insights using SQL.
-* Demonstrate real-world data warehousing techniques commonly used in BI and analytics projects.
+* Build a modern SQL Server data warehouse from scratch.
+* Design a scalable dimensional model for analytical workloads.
+* Develop ETL pipelines to extract, transform, and load business data.
+* Apply SQL best practices for readability, maintainability, and performance.
+* Generate meaningful business insights using analytical SQL queries.
+* Follow industry-standard data engineering workflows.
 
-## 🛠️ Technologies Used
+---
 
-* SQL Server
+## 🏛️ Data Warehouse Architecture
+
+The project follows a layered architecture:
+
+```text
+Source Data
+     │
+     ▼
+ Bronze Layer
+(Raw Data Ingestion)
+     │
+     ▼
+ Silver Layer
+(Data Cleansing & Transformation)
+     │
+     ▼
+ Gold Layer
+(Business-ready Star Schema)
+     │
+     ▼
+Analytics & Reporting
+```
+
+---
+
+## ⚙️ Technologies
+
+* Microsoft SQL Server
 * SQL Server Management Studio (SSMS)
 * T-SQL
 * ETL
@@ -35,18 +59,69 @@ The project includes:
 * Dimensional Modeling
 * SQL Analytics
 
-## 📖 Learning Outcomes
+---
 
-By completing this project, you will gain hands-on experience with:
+## 🚀 Key Features
 
-* Data warehouse architecture
-* ETL pipeline development
-* Fact and dimension table design
+* End-to-end ETL pipeline
 * Data cleansing and transformation
-* Business-oriented SQL analysis
-* Performance optimization
-* Industry-standard data engineering practices
+* Star schema implementation
+* Fact and Dimension tables
+* Analytical SQL queries
+* Modular SQL scripts
+* Performance-oriented design
+* Industry-standard project structure
 
 ---
 
-> **Credits:** This project is based on the **Data With Baraa** SQL Data Warehouse tutorial and has been implemented as a hands-on learning project while following modern data warehousing and analytics practices.
+## 📚 Skills Demonstrated
+
+* Data Warehousing
+* Data Engineering
+* ETL Development
+* SQL Programming
+* Dimensional Modeling
+* Database Design
+* Data Transformation
+* Query Optimization
+* Business Analytics
+
+---
+
+## 📁 Project Structure
+
+```text
+datasets/
+├── source_data/
+
+scripts/
+├── bronze/
+├── silver/
+├── gold/
+
+docs/
+
+README.md
+```
+
+---
+
+## 🎓 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Designing modern data warehouse architectures
+* Building ETL pipelines with SQL
+* Implementing dimensional models
+* Creating fact and dimension tables
+* Writing production-style SQL
+* Organizing SQL projects using industry best practices
+* Performing business-oriented analytical queries
+
+---
+
+## 🙏 Acknowledgements
+
+This project was built as part of the excellent **SQL Data Warehouse** tutorial by **Data With Baraa**.
+
+The implementation has been recreated as a hands-on learning project to strengthen practical skills in **SQL Server, ETL, Data Warehousing, and Analytics** while following modern data engineering practices.
